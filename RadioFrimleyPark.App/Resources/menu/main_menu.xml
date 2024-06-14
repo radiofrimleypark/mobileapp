@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--
+  <item
+    android:id="@+id/menu_schedule"
+    android:showAsAction="ifRoom"
+    android:title="@string/schedule" />
+  <item
+    android:id="@+id/menu_webcam"
+    android:showAsAction="ifRoom"
+    android:title="@string/webcam" />
+  <item
+    android:id="@+id/menu_listen"
+    android:showAsAction="ifRoom"
+    android:title="@string/listen" />
+-->
+  <item
+    android:id="@+id/menu_preferences"
+    android:showAsAction="never"
+    android:title="Preferences" />
+</menu>
+<!-- android:icon="@drawable/ic_action_content_save" -->

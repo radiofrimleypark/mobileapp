@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+  
+  <TextView
+    android:id="@+id/title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#40ffffff"
+    android:textColor="@color/banner_text_color"
+    android:textSize="@dimen/banner_text_size" />
+  
+  <TextView
+    android:id="@+id/date1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#40ffffff"
+    android:textColor="@color/banner_text_color"
+    android:textSize="@dimen/banner_text_size" />
+
+  <android.support.v7.widget.RecyclerView
+    android:id="@+id/videos"
+    android:background="@color/divider_color"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+  <android.support.v7.widget.RecyclerView
+    android:id="@+id/photos"
+    android:background="@color/divider_color"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+</LinearLayout>

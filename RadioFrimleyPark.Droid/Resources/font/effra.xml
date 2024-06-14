@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:local="http://schemas.android.com/apk/res-auto">
+    <font android:font="@font/effra_light"
+          android:fontStyle="normal"
+          android:fontWeight="300"
+          local:font="@font/effra_light"
+          local:fontStyle="normal"
+          local:fontWeight="300" />
+    <font android:font="@font/effra_regular"
+          android:fontStyle="normal"
+          android:fontWeight="400"
+          local:font="@font/effra_regular"
+          local:fontStyle="normal"
+          local:fontWeight="400" />
+    <font android:font="@font/effra_medium"
+          android:fontStyle="normal"
+          android:fontWeight="500"
+          local:font="@font/effra_medium"
+          local:fontStyle="normal"
+          local:fontWeight="500" />
+    <font android:font="@font/effra_bold"
+          android:fontStyle="normal"
+          android:fontWeight="700"
+          local:font="@font/effra_bold"
+          local:fontStyle="normal"
+          local:fontWeight="700" />
+    <font android:font="@font/effra_heavy"
+          android:fontStyle="normal"
+          android:fontWeight="800"
+          local:font="@font/effra_heavy"
+          local:fontStyle="normal"
+          local:fontWeight="800" />
+</font-family>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <dimen name="tab_indicator_height">6dp</dimen>
+  <dimen name="banner_text_size">24dp</dimen>
+  <dimen name="schedule_text_size">16dp</dimen>
+  <dimen name="divider_size">1dp</dimen>
+</resources>

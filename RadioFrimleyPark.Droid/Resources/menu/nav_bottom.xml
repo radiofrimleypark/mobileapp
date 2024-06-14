@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--
+    <item
+        android:id="@+id/dashboard"
+        android:enabled="true"
+        android:icon="@drawable/ic_uor_menu"
+        android:title="@string/dashboard"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/essentials_news"
+        android:enabled="true"
+        android:icon="@drawable/ic_rfp_menu"
+        android:title="@string/essentials_news"
+        android:titleCondensed="essentials_news"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/student_news"
+        android:enabled="true"
+        android:icon="@drawable/ic_rfp_menu"
+        android:title="@string/student_news"
+        android:titleCondensed="student_news"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/pc_finder"
+        android:enabled="true"
+        android:icon="@drawable/ic_rfp_menu"
+        android:title="@string/pc_finder"
+        android:titleCondensed="pc_finder"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/room_finder"
+        android:enabled="true"
+        android:icon="@drawable/ic_rfp_menu"
+        android:title="@string/room_finder"
+        android:titleCondensed="room_finder"
+        app:showAsAction="always" />
+    
+    <item
+        android:id="@+id/more"
+        android:enabled="true"
+        android:icon="@drawable/ic_rfp_menu"
+        android:title="@string/more"
+        android:titleCondensed="more"
+        app:showAsAction="ifRoom" />    
+
+        <item
+        android:id="@+id/timetable"
+        android:enabled="true"
+        android:icon="@drawable/ic_uor_menu"
+        android:title="@string/timetable"
+        app:showAsAction="ifRoom" />
+    
+    <item
+        android:id="@+id/library"
+        android:enabled="true"
+        android:icon="@drawable/ic_uor_menu"
+        android:title="@string/library"
+        app:showAsAction="ifRoom" />
+-->
+</menu>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/toolbar"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:minHeight="?android:attr/actionBarSize"
+  android:background="?android:attr/colorPrimary"
+  android:theme="@android:style/ThemeOverlay.Material.Dark.ActionBar"
+  android:title="@string/app_name">
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="6dp"
+      android:layout_weight=".80" >
+
+      <ImageView
+        android:src="@drawable/cropped_logo"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:background="#ffffffff" />
+
+      <ImageView
+        android:src="@drawable/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"   />
+
+    </FrameLayout>
+    <ImageButton
+      android:id="@+id/cast"
+      android:src="@drawable/ic_cast_white_24dp"
+      android:layout_width="36dip"
+      android:layout_gravity="top"
+      android:layout_marginTop="6dp"
+      android:layout_marginLeft="6dp"
+      android:layout_marginRight="6dp"
+      android:layout_marginBottom="6dp"
+      android:layout_height="match_parent"
+      android:background="@null"
+      android:layout_weight=".20" />
+
+  </LinearLayout>    
+</android.support.v7.widget.Toolbar>

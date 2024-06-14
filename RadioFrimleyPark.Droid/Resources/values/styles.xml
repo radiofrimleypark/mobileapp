@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <!-- Base theme applied regardless of API level -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/accentColor</item>
+        <item name="colorControlNormal">@color/primaryColor</item>
+        <item name="colorControlActivated">@color/accentColor</item>
+        <item name="colorControlHighlight">@color/accentColor</item>
+        <item name="windowActionModeOverlay">false</item>
+    </style>
+
+    <!-- Default App theme applied if no resource style overrides for specific API level -->
+    <style name="AppTheme" parent="AppTheme.Base">
+    </style>
+
+    <!-- App Splash Screen Theme -->
+    <style name="AppTheme.Splash.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+
+    <!-- Default Splash Screen theme applied if no resource style overrides for specific API level -->
+    <style name="AppTheme.Splash" parent="AppTheme.Splash.Base">
+    </style>
+	
+  <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+  <style name="AppTheme.RadioFrimleyPark.Light" parent="@android:style/Theme.Holo.Light">
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowActionBar">false</item>
+    <item name="android:colorPrimary">#ffffff</item>
+    <item name="android:colorAccent">#d70d16</item>
+  </style>
+  <style name="AppTheme.RadioFrimleyParkDark" parent="@android:style/Theme.Material.Light.DarkActionBar">
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowActionBar">false</item>
+    <item name="android:colorPrimary">#ffffff</item>
+    <item name="android:colorAccent">#d70d16</item>
+  </style>
+  <style name="AppTheme.RadioFrimleyPark" parent="@style/Theme.AppCompat.Light.NoActionBar">
+
+    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+<!-- when used with toolbar only
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowActionBar">false</item>
+-->
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:colorPrimary">#ffffff</item>
+    <item name="android:colorAccent">#d70d16</item>
+  </style>
+
+  <!-- Application theme. -->
+  
+  <style name="Widget.TabItem" parent="TextAppearance.Design.Tab">
+    <item name="android:textStyle">bold</item>
+  </style>	
+</resources>

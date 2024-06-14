@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<MvvmCross.DroidX.MvxSwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cast_stream_refresher"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="?attr/colorPrimaryDark">
+    local:MvxBind="Refreshing IsBusy; RefreshCommand RefreshCommand">
+  
+    <MvvmCross.DroidX.RecyclerView.MvxRecyclerView
+        local:MvxItemTemplate="@layout/layout_chromecast"
+        local:MvxBind="ItemsSource Items; ItemClick ClickCommand; ItemLongClick LongClickCommand"
+        android:id="@+id/cast_recycler"
+        android:background="?attr/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</MvvmCross.DroidX.MvxSwipeRefreshLayout>

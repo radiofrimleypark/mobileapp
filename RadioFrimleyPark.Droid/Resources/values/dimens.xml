@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+    <!--
+        Standard dimensions
+    -->
+    <dimen name="margin_tiny">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_huge">64dp</dimen>
+	
+    <dimen name="tab_indicator_height">6dp</dimen>
+    <dimen name="banner_text_size">24dp</dimen>
+    <dimen name="schedule_text_size">16dp</dimen>
+    <dimen name="divider_size">1dp</dimen>
+
+    <!-- News -->
+    <dimen name="news_title">25dp</dimen>
+    <dimen name="news_published">10dp</dimen>
+    <dimen name="news_summary">15dp</dimen>
+
+    <dimen name="user_display_name">20dp</dimen>
+    <dimen name="user_email_address">15dp</dimen>
+    <dimen name="user_presence">15dp</dimen>
+
+    <dimen name="atom_title">30dp</dimen>
+    <dimen name="atom_published">12dp</dimen>
+    <dimen name="atom_summary">15dp</dimen>    
+</resources>

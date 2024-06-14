@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+  <style name="BaseTheme2" parent="@android:style/Theme.Holo.Light">
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowActionBar">false</item>
+    <item name="android:colorPrimary">#d70d16</item>
+  </style>
+  <style name="BaseTheme1" parent="@android:style/Theme.Material.Light.DarkActionBar">
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowActionBar">false</item>
+    <item name="android:colorPrimary">#d70d16</item>
+  </style>
+  <style name="BaseTheme" parent="@android:style/Theme.Holo.Light.NoActionBar">
+      <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+<!-- when used with toolbar only
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowActionBar">false</item>
+-->
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:colorPrimary">#d70d16</item>
+  </style>
+
+  <!-- Application theme. -->
+  <style name="Theme" parent="BaseTheme">
+
+  </style>
+    <!--
+  <style name="Widget.TabItem" parent="TextAppearance.Design.Tab">
+    <item name="android:textStyle">bold</item>
+  </style>
+  -->
+</resources>

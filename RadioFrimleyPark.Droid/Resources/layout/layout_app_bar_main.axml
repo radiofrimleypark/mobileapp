@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:local="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+ 
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/AppTheme.RadioFrimleyPark">
+ 
+-       <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/colorPrimary"
+            local:itemTextColor="#ffffff"
+            local:itemIconTint="#ffffff"
+            android:minHeight="?attr/actionBarSize"
+            android:background="@drawable/side_nav_bar"
+            local:layout_constraintTop_toTopOf="parent">
+
+           <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:id="@+id/textview_toolbar_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/app_name"
+                    style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title" />
+
+                <ImageButton
+                    android:id="@+id/cast_icon"
+                    android:src="@drawable/ic_cast_white_24dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"            
+                    android:contentDescription="description"
+                    android:background="@null"
+                    android:layout_weight=".20" 
+                    android:visibility="invisible" />
+
+           </RelativeLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+ 
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+            android:id="@+id/server"
+            android:background="@drawable/side_nav_bar"
+            android:textSize="@dimen/schedule_text_size"
+            android:textColor="?attr/colorPrimary"
+            android:layout_width="match_parent"
+            local:layout_constraintTop_toBottomOf="@+id/toolbar"
+            android:layout_height="22dp" />
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:paddingTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+ 
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/side_nav_bar"
+        local:itemIconTint="@drawable/nav_item_colors"
+        local:itemTextColor="@drawable/nav_item_colors"
+        local:elevation="16dp"
+        android:layout_gravity="bottom"
+        local:menu="@menu/nav_bottom"
+        local:MvxBind="BottomNavigationSelectedBindingKey BottomNavigationItemSelectedCommand" />
+    
+</android.support.design.widget.CoordinatorLayout> 

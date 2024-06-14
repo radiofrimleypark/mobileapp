@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:padding="0dp">
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!--
+    <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:scaleType="fitCenter"
+      android:adjustViewBounds="true"
+      android:id="@+id/banner"/>
+
+      android:layout_below="@+id/banner"
+      -->
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:background="#40ffffff"
+      android:textColor="@color/banner_text_color"
+      android:textSize="@dimen/banner_text_size"
+      android:gravity="center"
+      android:id="@+id/programme">
+    </TextView>
+  </RelativeLayout>
+  
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/linearLayout1">
+        <Button
+            android:text="@string/play"
+            android:id="@+id/play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_av_play"
+            android:layout_gravity="center_vertical" />
+        <Button
+            android:text="@string/pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pause"
+            android:drawableTop="@drawable/ic_av_pause"
+            android:layout_gravity="center_vertical" />
+        <Button
+            android:text="@string/stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stop"
+            android:drawableTop="@drawable/ic_av_stop"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+</LinearLayout>
